@@ -82,23 +82,23 @@ AIR_ROUTE_ANALYSIS/
 │ ├── 노선별 항공사별 항공운송실적(2025년 01~07).csv
 │ ├── 국토교통부_세계공항_정보_20241231.csv
 │ ├── passenger_analysis.csv
-│ ├── pred_result.csv
+│ └── pred_result.csv
 │
 ├── notebooks/ # 전처리, 분석 코드
 │ ├── 01_air_route_preprocessing.ipynb
-│ ├── 02_air_route_analysis.ipynb
+│ └── 02_air_route_analysis.ipynb
 │
 ├── results/ # 분석 결과 시각화
-│ ├── 01_년도·월별 총여객 추이.png
-│ ├── 02_월별 총여객 증감률(%).png
-│ ├── 03_peak 하절기,동절기 인기 여행지 top10.png
-│ ├── 04_상대적 nonpeak 인기 여행지 top10.png
-│ ├── 05_년도별 국제·국내선 항공사 점유율(%).png
-│ ├── 06_공항별 아시아태평양 환승수요 top10.png
-│ ├── 07_항공사별 환승수요 top10.png
-│ ├── 08_항공사별 환승수요 top10(국적기 제외).png
-│ └── 09_탑승률 영향 요인(영향구조).png
-│ └── 10_탑승률 영향 요인(중요도).png
+│ ├── 01_monthly_total_passenger_trend.png
+│ ├── 02_monthly_growth_rate.png
+│ ├── 03_peak_season_top10_destinations.png
+│ ├── 04_nonpeak_top10_destinations.png
+│ ├── 05_airline_market_share_by_year.png
+│ ├── 06_top10_airports_transit_APAC.png
+│ ├── 07_top10_airlines_transit.png
+│ ├── 08_top10_airlines_transit_excluding_Korean_carriers.png
+│ ├── 09_load_factor_shap_structure.png
+│ └── 10_load_factor_feature_importance.png
 │
 └── README.md
 ```
